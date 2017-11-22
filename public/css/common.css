@@ -1,0 +1,28 @@
+.button-style {
+    width: 70px;
+}
+
+div.dataTables_info {
+    'background-color': '#000',
+    'color': '#ffffff',
+}
+
+.primary {
+    background-image:         linear-gradient(to bottom, #337ab7 0%, #265a88 100%);
+}
+
+.hide-me{
+    display: none;
+}
+
+/*
+.DT thead th,
+.DT tfoot td {
+    !*background-color: #eaeaea;*!
+    color: white;
+}
+.DT tbody tr.even,
+.DT tbody tr.odd{
+    background-color: #3e444c;
+    color: white;
+}*/

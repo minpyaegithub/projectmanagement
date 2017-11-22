@@ -1,0 +1,141 @@
+/* DEFAULTS
+----------------------------------------------------------*/
+/*modal*/
+/* CSS used here will be applied after bootstrap.css */
+.modal-header-success {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #5cb85c;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.modal-header-warning {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #f0ad4e;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.modal-header-danger {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #d9534f;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.modal-header-info {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #5bc0de;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.modal-header-primary {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #428bca;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+/*endmodal*/
+
+.asterisk
+{
+    color : Red
+}
+
+.ver-centered
+{
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
+
+.hoz-centered
+{ float: none;
+    margin: auto;
+}
+
+.text-group
+{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.float-left
+{
+    float: left !important;
+}
+
+.uppercase
+{
+    text-transform: uppercase;
+    font-family: "Zawgyi-One";
+}
+
+.hide-me{
+    display: none;
+}
+
+.grid-header
+{
+    text-align:center !important;
+}
+
+.grid_browser
+{
+
+}
+
+.align_left
+{
+    text-align:left !important;
+}
+
+.align_center
+{
+    text-align:center !important;
+}
+
+.align_right
+{
+    text-align:right !important;
+}
+
+td.no-edit, span.no-edit
+{
+    background-color: rgba(230,191,153,0.5);
+}
+
+.focused
+{
+    /*color: blue;*/
+    padding : 3px 2px !important;
+}
